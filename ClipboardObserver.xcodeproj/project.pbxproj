@@ -11,6 +11,7 @@
 		B9F282A21CC4454D00F4F4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F282A11CC4454D00F4F4DF /* main.m */; };
 		B9F282A41CC4454D00F4F4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F282A31CC4454D00F4F4DF /* Assets.xcassets */; };
 		B9F282A71CC4454D00F4F4DF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F282A51CC4454D00F4F4DF /* MainMenu.xib */; };
+		B9F282B01CC4458500F4F4DF /* ClipboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F282AF1CC4458500F4F4DF /* ClipboardObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		B9F282A31CC4454D00F4F4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9F282A61CC4454D00F4F4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B9F282A81CC4454E00F4F4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F282AE1CC4458500F4F4DF /* ClipboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipboardObserver.h; sourceTree = "<group>"; };
+		B9F282AF1CC4458500F4F4DF /* ClipboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipboardObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				B9F2829D1CC4454D00F4F4DF /* AppDelegate.h */,
 				B9F2829E1CC4454D00F4F4DF /* AppDelegate.m */,
+				B9F282AE1CC4458500F4F4DF /* ClipboardObserver.h */,
+				B9F282AF1CC4458500F4F4DF /* ClipboardObserver.m */,
 				B9F282A31CC4454D00F4F4DF /* Assets.xcassets */,
 				B9F282A51CC4454D00F4F4DF /* MainMenu.xib */,
 				B9F282A81CC4454E00F4F4DF /* Info.plist */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F282B01CC4458500F4F4DF /* ClipboardObserver.m in Sources */,
 				B9F282A21CC4454D00F4F4DF /* main.m in Sources */,
 				B9F2829F1CC4454D00F4F4DF /* AppDelegate.m in Sources */,
 			);
@@ -196,7 +202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -234,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -247,6 +253,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ClipboardObserver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sao.ClipboardObserver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -259,6 +266,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ClipboardObserver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sao.ClipboardObserver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
