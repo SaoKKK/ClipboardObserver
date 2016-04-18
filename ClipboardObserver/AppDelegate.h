@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "ClipboardObserver.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 

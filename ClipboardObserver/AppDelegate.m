@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ClipboardObserver.h"
 
 @interface AppDelegate (){
     IBOutlet NSTextView *_txtView;
